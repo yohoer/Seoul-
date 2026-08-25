@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap');
+
+html, body, #root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  -webkit-tap-highlight-color: transparent;
+  background: #FDFBF7;
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
